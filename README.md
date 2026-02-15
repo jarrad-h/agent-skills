@@ -12,6 +12,20 @@ A personalised learning coach for building capabilities in AI/ML, Azure cloud da
 - Azure Cloud Data Management (Data Factory, Synapse, Databricks, Azure ML, etc.)
 - Supporting data disciplines (data engineering, analysis, DataOps)
 
+### sme-due-diligence
+Australian SME due diligence and market research agent. Takes a business name, ABN, and/or owner/director name as input and produces a structured intelligence report consolidating public records, financial information, legal history, news, and risk indicators.
+
+**Report sections:**
+- Executive Summary & Business Identity (ABN, ACN, entity type, status, GST)
+- Current State Assessment (synthesised analytical overview)
+- Business Timeline (reverse-chronological key events)
+- Director/Owner Profiles (associated entities with status, enforcement history)
+- Financial Overview (best-effort from public sources)
+- Legal & Court Records (Federal/state courts, ASIC enforcement, insolvency notices)
+- Risk Indicators (red flags, positive signals, information gaps)
+
+**Data sources:** ABR, ASIC, Federal & state courts, Commonwealth Gazette, business news (AFR, SmartCompany), LinkedIn, PPSR
+
 ## Usage
 
 ### Claude.ai
